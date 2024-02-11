@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/emojify-on-the-web/static/css/main.d4228fe7.css",
-    "main.js": "/emojify-on-the-web/static/js/main.eae48f2c.js",
+    "main.css": "/emojify-on-the-web/static/css/main.fa46cc27.css",
+    "main.js": "/emojify-on-the-web/static/js/main.2607f667.js",
     "static/js/8726.548f7f4e.chunk.js": "/emojify-on-the-web/static/js/8726.548f7f4e.chunk.js",
     "static/js/8947.8924ef37.chunk.js": "/emojify-on-the-web/static/js/8947.8924ef37.chunk.js",
     "static/js/6932.db3c877c.chunk.js": "/emojify-on-the-web/static/js/6932.db3c877c.chunk.js",
     "static/js/1965.8b5e50e8.chunk.js": "/emojify-on-the-web/static/js/1965.8b5e50e8.chunk.js",
     "static/js/3927.e1a49668.chunk.js": "/emojify-on-the-web/static/js/3927.e1a49668.chunk.js",
-    "static/js/787.6e723627.chunk.js": "/emojify-on-the-web/static/js/787.6e723627.chunk.js",
     "static/js/7633.27674628.chunk.js": "/emojify-on-the-web/static/js/7633.27674628.chunk.js",
     "static/js/6225.9be84483.chunk.js": "/emojify-on-the-web/static/js/6225.9be84483.chunk.js",
     "static/js/7858.1d2ed325.chunk.js": "/emojify-on-the-web/static/js/7858.1d2ed325.chunk.js",
@@ -126,14 +125,13 @@
     "static/js/7026.8f8317a6.chunk.js": "/emojify-on-the-web/static/js/7026.8f8317a6.chunk.js",
     "static/js/7754.a3c26f33.chunk.js": "/emojify-on-the-web/static/js/7754.a3c26f33.chunk.js",
     "index.html": "/emojify-on-the-web/index.html",
-    "main.d4228fe7.css.map": "/emojify-on-the-web/static/css/main.d4228fe7.css.map",
-    "main.eae48f2c.js.map": "/emojify-on-the-web/static/js/main.eae48f2c.js.map",
+    "main.fa46cc27.css.map": "/emojify-on-the-web/static/css/main.fa46cc27.css.map",
+    "main.2607f667.js.map": "/emojify-on-the-web/static/js/main.2607f667.js.map",
     "8726.548f7f4e.chunk.js.map": "/emojify-on-the-web/static/js/8726.548f7f4e.chunk.js.map",
     "8947.8924ef37.chunk.js.map": "/emojify-on-the-web/static/js/8947.8924ef37.chunk.js.map",
     "6932.db3c877c.chunk.js.map": "/emojify-on-the-web/static/js/6932.db3c877c.chunk.js.map",
     "1965.8b5e50e8.chunk.js.map": "/emojify-on-the-web/static/js/1965.8b5e50e8.chunk.js.map",
     "3927.e1a49668.chunk.js.map": "/emojify-on-the-web/static/js/3927.e1a49668.chunk.js.map",
-    "787.6e723627.chunk.js.map": "/emojify-on-the-web/static/js/787.6e723627.chunk.js.map",
     "7633.27674628.chunk.js.map": "/emojify-on-the-web/static/js/7633.27674628.chunk.js.map",
     "6225.9be84483.chunk.js.map": "/emojify-on-the-web/static/js/6225.9be84483.chunk.js.map",
     "7858.1d2ed325.chunk.js.map": "/emojify-on-the-web/static/js/7858.1d2ed325.chunk.js.map",
@@ -253,7 +251,7 @@
     "7754.a3c26f33.chunk.js.map": "/emojify-on-the-web/static/js/7754.a3c26f33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4228fe7.css",
-    "static/js/main.eae48f2c.js"
+    "static/css/main.fa46cc27.css",
+    "static/js/main.2607f667.js"
   ]
 }
