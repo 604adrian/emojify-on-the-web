@@ -4,12 +4,22 @@
   "private": true,
   "homepage": "http://604adrian.github.io/emojify-on-the-web",
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@tsparticles/interaction-external-bubble": "^3.1.0",
+    "@tsparticles/interaction-particles-links": "^3.1.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/shape-emoji": "^3.2.1",
+    "@tsparticles/shape-image": "^3.1.0",
+    "emojification": "^1.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
     "react-scripts": "5.0.1",
+    "tsparticles": "^3.2.1",
+    "tts-react": "^3.0.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1"
   }
 }
