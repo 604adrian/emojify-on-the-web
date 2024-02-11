@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkweb_emojify=self.webpackChunkweb_emojify||[]).push([[1462],{1462:(e,a,n)=>{n.d(a,{updateWobble:()=>s});var o=n(4709);const t=0,l=2*Math.PI,b=60;function s(e,a){var n;const{wobble:s}=e.options,{wobble:i}=e;if(null===s||void 0===s||!s.enable||!i)return;const c=i.angleSpeed*a.factor,f=i.moveSpeed*a.factor*((null!==(n=e.retina.wobbleDistance)&&void 0!==n?n:t)*a.factor)/(o.X5/b),r=l,{position:u}=e;i.angle+=c,i.angle>r&&(i.angle-=r),u.x+=f*Math.cos(i.angle),u.y+=f*Math.abs(Math.sin(i.angle))}}}]);
+//# sourceMappingURL=1462.6e566a4f.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkweb_emojify=self.webpackChunkweb_emojify||[]).push([[1794],{1794:(e,c,n)=>{n.d(c,{drawCircle:()=>r});const a=2*Math.PI,i=0,t={x:0,y:0};function r(e){const{context:c,particle:n,radius:r}=e;n.circleRange||(n.circleRange={min:i,max:a});const s=n.circleRange;c.arc(t.x,t.y,r,s.min,s.max,!1)}}}]);
+//# sourceMappingURL=1794.5009c54a.chunk.js.map
