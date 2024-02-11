@@ -1,4 +1,4 @@
-🔥 Emojify the web
+# 🔥 Emojify the web
 
 
 It's time for an emojification celebration. What's the occasion, you ask? The occasion is this: the '[Emojification](https://www.npmjs.com/package/emojification)' npm package (build by yours truly) now has its own webpage. Here is the link: http://604adrian.github.io/emojify-on-the-web
