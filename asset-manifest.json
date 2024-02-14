@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/emojify-on-the-web/static/css/main.fa46cc27.css",
-    "main.js": "/emojify-on-the-web/static/js/main.2607f667.js",
-    "static/js/8726.548f7f4e.chunk.js": "/emojify-on-the-web/static/js/8726.548f7f4e.chunk.js",
+    "main.css": "/emojify-on-the-web/static/css/main.7382d0a6.css",
+    "main.js": "/emojify-on-the-web/static/js/main.78ca01bb.js",
+    "static/js/4722.3a6bc7dc.chunk.js": "/emojify-on-the-web/static/js/4722.3a6bc7dc.chunk.js",
+    "static/js/5874.02846376.chunk.js": "/emojify-on-the-web/static/js/5874.02846376.chunk.js",
+    "static/js/8726.7a535ff3.chunk.js": "/emojify-on-the-web/static/js/8726.7a535ff3.chunk.js",
     "static/js/8947.8924ef37.chunk.js": "/emojify-on-the-web/static/js/8947.8924ef37.chunk.js",
-    "static/js/6932.db3c877c.chunk.js": "/emojify-on-the-web/static/js/6932.db3c877c.chunk.js",
+    "static/js/6932.c5779dfb.chunk.js": "/emojify-on-the-web/static/js/6932.c5779dfb.chunk.js",
     "static/js/1965.8b5e50e8.chunk.js": "/emojify-on-the-web/static/js/1965.8b5e50e8.chunk.js",
     "static/js/3927.e1a49668.chunk.js": "/emojify-on-the-web/static/js/3927.e1a49668.chunk.js",
     "static/js/7633.27674628.chunk.js": "/emojify-on-the-web/static/js/7633.27674628.chunk.js",
@@ -122,14 +124,18 @@
     "static/js/4288.8b6dfcb8.chunk.js": "/emojify-on-the-web/static/js/4288.8b6dfcb8.chunk.js",
     "static/js/1795.b95d3674.chunk.js": "/emojify-on-the-web/static/js/1795.b95d3674.chunk.js",
     "static/js/3585.fd7a8923.chunk.js": "/emojify-on-the-web/static/js/3585.fd7a8923.chunk.js",
+    "static/js/7209.90360eea.chunk.js": "/emojify-on-the-web/static/js/7209.90360eea.chunk.js",
     "static/js/7026.8f8317a6.chunk.js": "/emojify-on-the-web/static/js/7026.8f8317a6.chunk.js",
-    "static/js/7754.a3c26f33.chunk.js": "/emojify-on-the-web/static/js/7754.a3c26f33.chunk.js",
+    "static/js/5272.f70e8f6b.chunk.js": "/emojify-on-the-web/static/js/5272.f70e8f6b.chunk.js",
+    "static/js/1765.cbdf671b.chunk.js": "/emojify-on-the-web/static/js/1765.cbdf671b.chunk.js",
     "index.html": "/emojify-on-the-web/index.html",
-    "main.fa46cc27.css.map": "/emojify-on-the-web/static/css/main.fa46cc27.css.map",
-    "main.2607f667.js.map": "/emojify-on-the-web/static/js/main.2607f667.js.map",
-    "8726.548f7f4e.chunk.js.map": "/emojify-on-the-web/static/js/8726.548f7f4e.chunk.js.map",
+    "main.7382d0a6.css.map": "/emojify-on-the-web/static/css/main.7382d0a6.css.map",
+    "main.78ca01bb.js.map": "/emojify-on-the-web/static/js/main.78ca01bb.js.map",
+    "4722.3a6bc7dc.chunk.js.map": "/emojify-on-the-web/static/js/4722.3a6bc7dc.chunk.js.map",
+    "5874.02846376.chunk.js.map": "/emojify-on-the-web/static/js/5874.02846376.chunk.js.map",
+    "8726.7a535ff3.chunk.js.map": "/emojify-on-the-web/static/js/8726.7a535ff3.chunk.js.map",
     "8947.8924ef37.chunk.js.map": "/emojify-on-the-web/static/js/8947.8924ef37.chunk.js.map",
-    "6932.db3c877c.chunk.js.map": "/emojify-on-the-web/static/js/6932.db3c877c.chunk.js.map",
+    "6932.c5779dfb.chunk.js.map": "/emojify-on-the-web/static/js/6932.c5779dfb.chunk.js.map",
     "1965.8b5e50e8.chunk.js.map": "/emojify-on-the-web/static/js/1965.8b5e50e8.chunk.js.map",
     "3927.e1a49668.chunk.js.map": "/emojify-on-the-web/static/js/3927.e1a49668.chunk.js.map",
     "7633.27674628.chunk.js.map": "/emojify-on-the-web/static/js/7633.27674628.chunk.js.map",
@@ -247,11 +253,13 @@
     "4288.8b6dfcb8.chunk.js.map": "/emojify-on-the-web/static/js/4288.8b6dfcb8.chunk.js.map",
     "1795.b95d3674.chunk.js.map": "/emojify-on-the-web/static/js/1795.b95d3674.chunk.js.map",
     "3585.fd7a8923.chunk.js.map": "/emojify-on-the-web/static/js/3585.fd7a8923.chunk.js.map",
+    "7209.90360eea.chunk.js.map": "/emojify-on-the-web/static/js/7209.90360eea.chunk.js.map",
     "7026.8f8317a6.chunk.js.map": "/emojify-on-the-web/static/js/7026.8f8317a6.chunk.js.map",
-    "7754.a3c26f33.chunk.js.map": "/emojify-on-the-web/static/js/7754.a3c26f33.chunk.js.map"
+    "5272.f70e8f6b.chunk.js.map": "/emojify-on-the-web/static/js/5272.f70e8f6b.chunk.js.map",
+    "1765.cbdf671b.chunk.js.map": "/emojify-on-the-web/static/js/1765.cbdf671b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa46cc27.css",
-    "static/js/main.2607f667.js"
+    "static/css/main.7382d0a6.css",
+    "static/js/main.78ca01bb.js"
   ]
 }
