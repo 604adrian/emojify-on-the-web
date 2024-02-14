@@ -4,7 +4,10 @@
   "private": true,
   "homepage": "http://604adrian.github.io/emojify-on-the-web",
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
     "@formkit/auto-animate": "^0.8.1",
+    "@mui/material": "^5.15.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -15,6 +18,7 @@
     "@tsparticles/shape-image": "^3.1.0",
     "emojification": "^1.0.3",
     "react": "^18.2.0",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "react-scripts": "5.0.1",

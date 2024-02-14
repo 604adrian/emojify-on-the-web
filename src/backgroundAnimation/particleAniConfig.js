@@ -1,4 +1,20 @@
-const emojis = ['😈', '😇', '🙏', '💀', '😭', '😂', '😂', '🎃', '👽', '🙈', '🙉', '🙊', '🦍', '😵', '😤', '😰', '🥴', '😍', '❤️', '😱', '🥺', '🥹', '🥰', '😷', '🤮', '🤒', '🫨', '🤯', '🤯', '🤓', '🥸','😎', '🤗', '😅', '🤩', '😘', '💋', '🤠', '🫡', '🧐', '😏', '🍆', '😌', '😪', '🥶', '💩', '👺', '👻', '😳', '🐻', '🐶', '😼', '😽', '🌈', '🌚 🌝', '🌞', '⛄', '🍄', '👸', '🐝', '🐳', '🐷', '🤷‍♂️', '🤷‍♀️', '🤷‍♀️', '🙋', '🤦', '💔', '👩‍❤️‍👩', '💍', '🤵', '👨', '💪', '🤖', '👾', '🔫', '🚀', '🛸', '💡', '🤔', '🧝', '🎅', '😵‍💫', '💫', '⭐']
+import { isMobile } from 'react-device-detect'
+
+const number = (isMobile) ? 5 : 80
+const maxNum = (isMobile) ? 7 : 100
+const hover = (isMobile) ? false : true
+const clickEffect = (isMobile) ? false : true
+const size = (isMobile)
+  ? { min: 30, max: 60 }
+  : { min: 10, max: 40 }
+const opacity = (isMobile)
+  ? { min: 0.3, max: 0.6 }
+  : { min: 0.1, max: 0.4 }
+const density = (isMobile)
+  ? { enable: true, width: 600, height: 600 }
+  : { enable: true, width: 1920, height: 1080 }
+
+const emojis = ['😈', '😇', '🙏', '💀', '😭', '😂', '😂', '🎃', '👽', '🙈', '🙉', '🙊', '🦍', '😵', '😤', '😰', '🥴', '😍', '❤️', '😱', '🥺', '🥹', '🥰', '😷', '🤮', '🤒', '🫨', '🤯', '🤯', '🤓', '🥸','😎', '🤗', '😅', '🤩', '😘', '💋', '🤠', '🧐', '😏', '🍆', '😌', '😪', '🥶', '💩', '👺', '👻', '😳', '🐻', '🐶', '😼', '😽', '🌈', '🌚 🌝', '🌞', '⛄', '🍄', '👸', '🐝', '🐳', '🐷', '🤷‍♂️', '🤷‍♀️', '🤷‍♀️', '🙋', '🤦', '💔', '👩‍❤️‍👩', '💍', '🤵', '👨', '💪', '🤖', '👾', '🔫', '🚀', '🛸', '💡', '🤔', '🧝', '🎅', '😵‍💫', '💫', '⭐']
 
 const options = {
     autoPlay: true,
@@ -25,10 +41,10 @@ const options = {
     interactivity: {
       detectsOn: "window",
       events: {
-        onClick: { enable: true, mode: "push" },
+        onClick: { enable: clickEffect, mode: "push" },
         onDiv: { selectors: [], enable: false, mode: [], type: "circle" },
         onHover: {
-          enable: true,
+          enable: hover,
           mode: "repulse",
           parallax: { enable: false, force: 2, smooth: 10 }
         },
@@ -155,12 +171,12 @@ const options = {
         warp: false
       },
       number: {
-        density: { enable: true, width: 1920, height: 1080 },
-        limit: { mode: "delete", value: 100 },
-        value: 80, 
+        density: density,
+        limit: { mode: "delete", value: number},
+        value: maxNum,
       },
       opacity: {
-        value: { min: 0.1, max: 0.4 },
+        value: opacity,
         animation: {
           count: 0,
           enable: true,
@@ -173,7 +189,7 @@ const options = {
           destroy: "none"
         }
       },
-      reduceDuplicates: false,
+      reduceDuplicates: true,
       shadow: {
         blur: 0,
         color: { value: "#000" },
@@ -202,7 +218,7 @@ const options = {
         type: "char"
       },
       size: {
-        value: { min: 10, max: 40 },
+        value: size,
         animation: {
           count: 0,
           enable: false,

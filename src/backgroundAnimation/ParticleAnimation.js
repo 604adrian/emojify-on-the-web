@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from 'tsparticles';
-import options from './particleAniConfig.js';
+import options from './particleAniConfig';
 
 export default function ParticleAni({ children }) {
     const [ init, setInit ] = useState(false);
@@ -18,15 +18,16 @@ export default function ParticleAni({ children }) {
     const particlesLoaded = (container) => {};
 
     return (
-      <>
-        { init && 
+       <>
+        {init && 
           <Particles
             className='particleAni'
             id="tsparticles"
             particlesLoaded={particlesLoaded}
             options={options}
-        />
-    }
-  </>
- )
+          />
+         }
+       </>
+    )
+
 };

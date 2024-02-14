@@ -1,9 +1,11 @@
 import { useState, memo, useRef, useEffect } from 'react'
-import { IoIosArrowUp } from "react-icons/io"
+import '../index.css';
 import autoAnimate from '@formkit/auto-animate'
 import toEmoji from 'emojification'
 import { useIsOverflow } from '../detectOverflow.js'
-import '../index.css';
+import { isMobile } from 'react-device-detect'
+import { IoIosArrowUp } from 'react-icons/io'
+import { FaArrowCircleDown }  from 'react-icons/fa'
 
 const TextBox = memo(function TextBox({ top, submit, count=undefined }) {
   const [expand, setExpand] = useState(false)
@@ -29,53 +31,53 @@ const TextBox = memo(function TextBox({ top, submit, count=undefined }) {
   }, [parentRef])
 
   const isOverflow = useIsOverflow(expandRef, (setIsOverflowFromCallback) => {});
-
-  let overflowing = (isOverflow) 
-    ? !expand
-      ? 'text-box-overflow' 
-      : ''
-    : ''
+  let overflowing = (isOverflow && !isMobile && !expand) ? 'overflowing' : ''
 
   return (
     <>
      <div 
        ref={parentRef}
-       style={{ 
-        gridColumnEnd: `${isOverflow 
-          ? '7' 
-          : expand
-            ? '7'
-            : '8'}`,
-       }}
+       style={{ gridColumnEnd: `${isOverflow ? '8' : expand ? '8': '9'}` }}
        className={[txtBoxClass, emojiStyle, overflowing, 'emoji-text'].join(' ')}
      >
         {expand 
           ? <div className={['emoji-text', 'big'].join(' ')} >
               <pre>{ text }</pre></div>
-          : <pre
-              className={['emoji-text', 'small'].join(' ')} ref={expandRef} >
-                { text }</pre>
+          : <pre 
+              className='emoji-text' ref={expandRef}>
+              { text }
+            </pre>
         }
       </div>
-      
+
+
       {(isOverflow || expand) &&
-       <div className={areaForBtn} >
+      <div className={areaForBtn}>
          <button 
-            className='expand-btn'
-            onClick={() => setExpand(!expand)}
+           className={`${!isMobile ? 'expand-btn' : 'ios-expand-btn'}`}
+           onClick={() => setExpand(!expand)}
           >
-          <abbr title={`${!expand ? 'Expand' : 'Minimize' }`}>
-            <IoIosArrowUp 
-              style={{ 
-                position: 'relative',
-                transition: "all 0.2s ease-in",
-                transform: `rotate(${expand ? 0 : '-0.5turn'})`,
-               }} />
-          </abbr>
+                {!isMobile
+                  ? <abbr title={`${!expand ? 'Expand' : 'Minimize' }`}>
+                      <IoIosArrowUp 
+                        style={{ 
+                          position: 'relative',
+                          transition: "all 0.2s ease-in",
+                          transform: `rotate(${expand ? 0 : '-0.5turn'})`,
+                        }} />
+                    </abbr>
+                   : <FaArrowCircleDown
+                       style={{ 
+                         position: 'relative',
+                         transition: "all 0.2s ease-in",
+                         transform: `rotate(${!expand ? 0 : '-0.5turn'})`,
+                         textShadow: "0px 0px 2px black, 0 0 15px white"
+                       }} 
+                     />
+                    }
          </button>
         </div>
        }
-
 
     </>
   )

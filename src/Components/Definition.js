@@ -1,6 +1,7 @@
 import { memo, Suspense } from 'react'
 import '../index.css'
 import { TextToSpeech, Sizes } from 'tts-react'
+import { isMobile } from 'react-device-detect'
 
 const Definition = memo(function Definiton() {
 
@@ -19,9 +20,10 @@ const Definition = memo(function Definiton() {
         </Suspense>
       </div>
 
-      <span margin='15px'>
-        <pre className='phonetic'>emo·ji·fi·ca·tion   /ɪmˈɒ-ɡi-fɪ-kˈe‍ɪ-ʃən/</pre>
-      </span>
+      {!isMobile &&
+        <span margin='15px'>
+          <pre className='phonetic'>emo·ji·fi·ca·tion   /ɪmˈɒ-ɡi-fɪ-kˈe‍ɪ-ʃən/</pre>
+        </span>}
 
       <span className='noun'>
         <p><em>noun</em> [uncountable]</p>
