@@ -109,6 +109,7 @@ body {
   z-index: 1;
   border: 2px solid white;
   width: 100%;
+  margin-left: -8px;
 }
 
 .text-input {
@@ -494,7 +495,6 @@ input,
   background-color: #00051E;
   opacity: 0.8;
   width: 100%;
-  max-width: 572px;
   padding-top: 12px;
   margin-top: 35px;;
   padding-bottom: 12px;
