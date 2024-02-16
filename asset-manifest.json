@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/emojify-on-the-web/static/css/main.7382d0a6.css",
+    "main.css": "/emojify-on-the-web/static/css/main.70e53fdd.css",
     "main.js": "/emojify-on-the-web/static/js/main.78ca01bb.js",
     "static/js/4722.3a6bc7dc.chunk.js": "/emojify-on-the-web/static/js/4722.3a6bc7dc.chunk.js",
     "static/js/5874.02846376.chunk.js": "/emojify-on-the-web/static/js/5874.02846376.chunk.js",
@@ -129,7 +129,7 @@
     "static/js/5272.f70e8f6b.chunk.js": "/emojify-on-the-web/static/js/5272.f70e8f6b.chunk.js",
     "static/js/1765.cbdf671b.chunk.js": "/emojify-on-the-web/static/js/1765.cbdf671b.chunk.js",
     "index.html": "/emojify-on-the-web/index.html",
-    "main.7382d0a6.css.map": "/emojify-on-the-web/static/css/main.7382d0a6.css.map",
+    "main.70e53fdd.css.map": "/emojify-on-the-web/static/css/main.70e53fdd.css.map",
     "main.78ca01bb.js.map": "/emojify-on-the-web/static/js/main.78ca01bb.js.map",
     "4722.3a6bc7dc.chunk.js.map": "/emojify-on-the-web/static/js/4722.3a6bc7dc.chunk.js.map",
     "5874.02846376.chunk.js.map": "/emojify-on-the-web/static/js/5874.02846376.chunk.js.map",
@@ -259,7 +259,7 @@
     "1765.cbdf671b.chunk.js.map": "/emojify-on-the-web/static/js/1765.cbdf671b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7382d0a6.css",
+    "static/css/main.70e53fdd.css",
     "static/js/main.78ca01bb.js"
   ]
 }
