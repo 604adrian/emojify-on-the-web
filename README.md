@@ -10,5 +10,8 @@ Here is a screencap of the website:
 ![A screenshot of the website](./public/screenshot.png)
 
 Enjoy!
+<hr>
+
+**PS**: If you're on desktop, don't forget to play around with the emojis floating around in the background (they're interactive).
 
 
